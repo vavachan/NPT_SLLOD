@@ -35,7 +35,7 @@ void calculate_gradient( double *,  double *, int);
 void write_config(int ,  double *, char *);
 
 void make_list();
-void integrate_NPT_SLLOD(double *, double *, double ,double ,double );
+void integrate_NPT_SLLOD(double *, double *, double );
 void integrate_NVT_SLLOD(double *, double *, double );
 void integrate_NH(double *,  double *,double);
 void velocity_verlet(double *,  double *,double);
